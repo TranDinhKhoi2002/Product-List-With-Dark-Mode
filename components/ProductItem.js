@@ -54,6 +54,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     gap: 20,
     padding: 14,
+    maxWidth: "100%",
   },
   image: {
     width: 100,
@@ -63,7 +64,6 @@ const styles = StyleSheet.create({
   name: {
     fontWeight: "bold",
     fontSize: 18,
-    flexWrap: "wrap",
   },
   priceText: {
     fontSize: 16,
